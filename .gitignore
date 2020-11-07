@@ -14,3 +14,6 @@ package-lock.json
 # Yarn files
 yarn.lock
 yarn-error.log
+
+# Postgres volume
+data/

@@ -36,6 +36,7 @@ services:
     restart: on-failure
     logging: *default-logging
     networks: [ "web" ]
+    depends_on: [ "postgres" ]
 
   postgres:
     image: postgres:9.6
